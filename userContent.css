@@ -1,0 +1,30 @@
+@-moz-document domain(bugzilla.redhat.com) {
+    .bz_bug_link {
+        font-style: italic !important;
+    }
+    .bz_bug_link.bz_status_NEW {
+        color: #333 !important;
+        font-style: normal !important;
+    }
+    .bz_bug_link.bz_status_MODIFIED,
+    .bz_bug_link.bz_status_POST {
+        color: #AA6 !important;
+        font-style: normal !important;
+    }
+    .bz_bug_link.bz_status_VERIFIED,
+    .bz_bug_link.bz_status_RELEASE_PENDING,
+    .bz_bug_link.bz_status_ON_QA {
+        color: #0A3 !important;
+        font-style: normal !important;
+    }
+    .bz_bug_link.bz_status_ASSIGNED {
+        color: #15C !important;
+        font-style: normal !important;
+    }
+    .bz_bug_link.bz_closed {
+        color: #AAA !important;
+        text-decoration: line-through !important;
+        font-style: normal !important;
+    }
+}
+
